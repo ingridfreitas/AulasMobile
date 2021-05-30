@@ -1,0 +1,36 @@
+ion-item{
+    min-height: 30px;
+
+    ion-label{
+        text-align: center;
+        font-weight: 550;
+        margin-bottom: 0;
+        height: 30px;
+        margin-left: 18px;
+    }
+    ion-note{
+        margin: 0;
+        margin-top: 17px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 13px;
+        span{
+            font-weight: 450;
+        }
+    }
+    ion-badge{
+        margin-left: 15px;
+    }
+}
+img{
+    height: 100px;
+}
+.wi{
+    padding-left: 25px;
+}
+.mi{
+    padding-left: 50px;
+}
+ion-card{
+    width: 98%;
+}
