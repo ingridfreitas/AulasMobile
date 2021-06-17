@@ -1,0 +1,10 @@
+
+ion-slide .aparecer:hover, .desc{
+    transform: scale(1.2);
+    z-index: 1;
+    opacity: 1;
+}
+.desc{
+    display: block;
+    opacity: 0;
+}

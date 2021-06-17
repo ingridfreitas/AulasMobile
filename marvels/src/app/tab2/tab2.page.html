@@ -1,0 +1,91 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="red">
+    <ion-title>
+      Séries
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="capa">
+    <img src="assets/img/series.gif" alt="">
+  </div>
+
+
+  <div class="titulos">
+    <h5>Séries UCM</h5>
+  </div>
+
+  <ion-slides [options]="slidesOptions" class="fases">
+    <ion-slide>
+      <img src="../../assets/img/series/WandaVision.jpg" alt="WandaVision" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/tfatws.jpg" alt="Falcão e o Soldado Invernal">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/loki.jpeg" alt="Loki">
+    </ion-slide>
+  </ion-slides>
+
+  <div class="titulos">
+    <h5>Séries Documentais</h5>
+  </div>
+
+  <ion-slides [options]="slidesOptions" class="fases">
+    <ion-slide>
+      <img src="../../assets/img/series/616.jpg" alt="616" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/avante.jpg" alt="Avante" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/lendas.jpg" alt="Lendas da Marvel">
+    </ion-slide>
+  </ion-slides>
+
+  <div class="titulos">
+    <h5>Séries de Colabs</h5>
+  </div>
+
+  <ion-slides [options]="slidesOptions" class="fases">
+    <ion-slide>
+      <img src="../../assets/img/series/aos.jpg" alt="Agents Of SHIELD" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/daredevil.jpg" alt="Demolidor">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/defensores.jpg" alt="Defensores" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/inumanos.jpg" alt="Inumanos">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/iron-fist.jpg" alt="Punho de Ferro">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/jones.jpg" alt="Jéssica Jones" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/just.jpg" alt="Justiceiro">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/run.jpg" alt="Runaway" class="aparecer">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/carter.jpg" alt="Agente Carter">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/series/luke.jpg" alt="Luke Cage">
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+<script>
+  function watch(){
+  var nenhum = document.getElementById('continue');
+  var hide = document.querySelector('.aparecer');
+  hide.style.display = 'block';
+  alert('all right')
+}
+</script>

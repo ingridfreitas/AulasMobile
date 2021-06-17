@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="red">
+    <ion-title>
+      Histórias em Quadrinhos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--
+  Avengers vs X-Men
+  Cruzada das criança
+  Cruzada Infinita
+  Dinastia M
+  Feiticeira Escarlate
+  Futuro Imperfeito
+  Gavião Arqueiro
+  Guerra Civil
+  Guerra das Armaduras
+  Jovens Vingadores
+  Pecado Original
+  Vingadores: A Queda
+-->
+<ion-content [fullscreen]="true">
+  <div class="capa">
+    <img src="assets/img/hqs.gif" alt="">
+  </div>
+
+  <div class="pesquisa">
+    <ion-searchbar showCancelButton="always" placeholder="Pesquise Aqui!"></ion-searchbar>
+  </div>
+
+  <div class="titulos">
+    <h5>Sagas</h5>
+  </div>
+
+  <ion-slides [options]="slidesOptions" class="fases">
+    <ion-slide  >
+      <img src="../../assets/img/hqs/avsxm.png" alt="Avengers vs X-Men" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/children.png" alt="Cruzada das Crianças" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/dinastia.png" alt="Dinastia M" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/witcher.png" alt="Feiticeira Escarlate" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/smash.png" alt="Futuro Imperfeito" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/gavigod.png" alt="Gavião Arqueiro" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/civil.png" alt="Guerra Civil" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/armor.png" alt="Guerra das Armaduras" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/young.png" alt="Jovens Vingadores" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/pecado.png" alt="Pecado Original" class="aparecer">
+    </ion-slide>
+    <ion-slide  >
+      <img src="../../assets/img/hqs/fall.png" alt="Vingadores: A Queda" class="aparecer">
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
